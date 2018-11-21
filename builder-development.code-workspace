@@ -1,0 +1,17 @@
+{
+  "folders": [
+    {
+      "path": "my-builders"
+    },
+    {
+      "path": "my-cli-proj"
+    }
+  ],
+  "settings": {
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": false,
+    "typescript.preferences.quoteStyle": "single",
+    "javascript.preferences.quoteStyle": "single"
+  }
+}

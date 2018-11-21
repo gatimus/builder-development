@@ -1,0 +1,10 @@
+{
+  "$schema": "./node_modules/@angular-devkit/architect/src/builders-schema.json",
+  "builders": {
+    "my-browser": {
+      "class": "./my-browser-builder",
+      "schema": "./my-browser-builder/schema.json",
+      "description": "Build a browser app."
+    }
+  }
+}

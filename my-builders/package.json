@@ -1,0 +1,28 @@
+{
+  "name": "my-builders",
+  "version": "1.0.0",
+  "description": "",
+  "builders": "builders.json",
+  "scripts": {
+    "build": "tsc",
+    "merge-schemes": "node ./merge-schemes.js"
+  },
+  "devDependencies": {
+    "@angular-devkit/architect": "~0.8.0",
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular-devkit/core": "~0.8.0",
+    "@angular/compiler": "^6.1.0",
+    "@angular/compiler-cli": "^6.1.0",
+    "@angular/core": "^6.1.0",
+    "lodash": "^4.17.11",
+    "typescript": "~2.9.2"
+  },
+  "peerDependencies": {
+    "@angular-devkit/architect": "~0.8.0",
+    "@angular-devkit/build-angular": "~0.8.0",
+    "@angular-devkit/core": "~0.8.0",
+    "@angular/compiler": "^6.1.0",
+    "@angular/compiler-cli": "^6.1.0",
+    "@angular/core": "^6.1.0"
+  }
+}
